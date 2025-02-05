@@ -10,4 +10,3 @@ public interface UsuarioRepository extends JpaRepository<Usuario, UUID> {
 
     UserDetails findByEmail(String email);
 }
-t init
